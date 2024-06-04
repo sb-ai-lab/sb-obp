@@ -1,9 +1,12 @@
 [tool.poetry]
-name = "obp"
+name = "sb-obp"
 version = "0.5.8"
 description = "Open Bandit Pipeline: a python library for off-policy evaluation and learning"
 authors = ["Yuta Saito <ys552@cornell.edu>"]
 license = "Apache License 2.0"
+packages = [
+    {include = "obp"}
+]
 
 [tool.poetry.dependencies]
 python = ">=3.8.1,<3.12"
